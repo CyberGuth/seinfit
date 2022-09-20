@@ -82,7 +82,25 @@ body{
   z-axis: -1
 }
 
-.fashion{
-  width:300px;
-    position:relative
+.eshift{
+  position: absolute;
+    left: 1050px;
+  width: 250px;
+    height:250px;
+  outline: none;
+  z-axis: -1
+}
+
+.picline{
+  position: absolute;
+  left: 75px;
+  height: 50px;
+  width: 300px;
+  top: 250px;
+  background-image:url("khead.gif");
+  background-size: cover;
+  background-color: 0;
+  background-position: center;
+
+
 }
