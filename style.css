@@ -101,6 +101,13 @@ body{
   background-size: cover;
   background-color: 0;
   background-position: center;
+}
+#image-frame {
 
+  
+}
 
+#image-frame img {
+  width: 100%;
+  height: 100%;
 }
