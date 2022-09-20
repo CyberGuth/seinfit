@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+
+}
+  @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+/* font-family: 'Amatic SC', cursive; */
+
+
+header{
+  background-color: lightpink;
+  position: fixed;
+  width:100vw;
+  top:0;
+  left:0;
+  z-index: 1
+
+}
+main{
+  margin-top: 6rem
+}
+
+body{
+     background-image: url("https://thumbs.dreamstime.com/b/geometric-seamless-pattern-abstract-checkered-s-style-distorted-multi-colored-grid-their-squares-design-banners-246520547.jpg");
+    margin:0 auto;
+    max-width: 500px;
+    font-family: 'Amatic SC'
+
+  }
+  h1{
+    font-size: 50px;
+    background-color: salmon;
+    border-left: 5px solid darksalmon;
+    border-bottom: 2px solid darkred;
+    color: yellow;
+    text-align: center;
+
+  }
+  h3{
+    color: yellow;
+      background-color:salmon;
+    text-align: center;
+      border-left: 5px solid darksalmon;
+    margin:0;
+    border-bottom: 2px solid darkred;
+    margin-bottom: 1rem
+  }
+  p{
+    background-color: #eee;
+    padding: 5px;
+      outline: 2px solid graytext;
+     margin-bottom: 1rem;
+  }
+  img{
+    max-width: 500px;
+    width: 100%;
+    outline: 4px solid lightblue;
+    display: block;
+       margin-bottom: .5rem
+     }
+  h2{
+    margin: 0;
+    padding:
+
+  }
+
+  div{
+
+    padding: 0px;
+    background-color: salmon;
+    border-left: 5px solid darksalmon;
+    border-bottom: 2px solid darkred;
+    color: yellow;
+    text-align: center;
+     margin-bottom: 1rem
+  }
+.ghead{
+  position: absolute;
+    left: 100px;
+  width: 250px;
+    height:250px;
+  outline: none;
+  z-axis: -1
+}
+
+.fashion{
+  width:300px;
+    position:relative
+}
