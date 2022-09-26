@@ -97,7 +97,7 @@ body{
   width: 250px;
     height:250px;
   outline: none;
-  z-axis: -1;
+
 }
 
 .eshift{
@@ -111,12 +111,13 @@ body{
 
 .picline{
   position: absolute;
-  left: 1050px;
+  left: 950px;
   height: 100px;
   width: 600px;
-  top: 250px;
+  top: 280px;
   background-image:url("khead.gif");
   background-size: cover;
+  background-repeat: repeat-x;
   background-color: 0;
   background-position: center;
 }
@@ -125,22 +126,48 @@ body{
       left: 1050px;
     width: 250px;
       height:250px;
-      top:350px;
+      top:420px;
     outline: none;
     z-axis: -1;
   }
   .kturk{
     position: absolute;
     top:520px;
-      left: 150px;
+      left: 100px;
     width: 250px;
       height:150px;
     outline: none;
     z-axis: -1;
   }
-
-
+  .sweater{
+    position: absolute;
+    background-image: url("sweater.gif");
+    background-repeat: repeat-x;
+    height: 200px;
+    width: 1500px;
+    left: 0px;
+    top: 700px;
+    z-index: -2
 }
+.daguys{
+  position: absolute;
+  top:920px;
+    left: 100px;
+  width: 250px;
+    height:250px;
+  outline: none;
+}
+
+.jwink{
+  position: absolute;
+    left: 1050px;
+  width: 250px;
+    height:250px;
+    top: 920px;
+  outline: none;
+}
+
+
 #image-frame {
 
 
